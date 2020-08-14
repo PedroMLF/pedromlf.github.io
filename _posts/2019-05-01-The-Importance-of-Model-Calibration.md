@@ -39,7 +39,7 @@ One way to represent the calibration of the model is through **reliability diagr
 Figure 1 shows an example of a reliability diagram (from Guo et al. [[1]](#ref1)). For now focus only on the blue bars, which correspond to the accuracy of the predictions within a given range of confidence values. Notice how a perfectly calibrated model corresponds to the identity function in this type of diagram. The reasoning behind this is the following: _If a model outputs a probability of 60% for a given class for a given input, then, over the course of several predictions with different inputs, all with this level of confidence, the model should have guessed 60% of them correctly_. Extending this reasoning to all values, we obtain the aforementioned identity function.
 
 <p align="center">
-    <img src="/static/fig01.png" width="40%">
+    <img src="/static/2019_05_01_calibration/fig01.png" width="40%">
     <font size="2">
         <figcaption class="text-center">Figure 1: Example of reliability diagram (modified from [1]).</figcaption>
     </font>
@@ -102,7 +102,7 @@ As expected, increasing the temperature resulted in a more _uniform_ probability
 Figure 2 shows an example resulting from applying temperature scaling to the CIFAR-100 dataset. It is noticeable how the temperature scaling method, despite simple, is very effective in terms of reducing the ECE error of the model's predictions. In this particular case, it is able to reduce the ECE from 12.67 to 0.96. This means that in the case of the calibrated model (on the right), we can now use the probability value given to the chosen class as a measure of how confident we can be in that prediction, as it reflects the accuracy of the model in that circumstance.
 
 <p align="center">
-    <img src="/static/fig02.png" width="65%">
+    <img src="/static/2019_05_01_calibration/fig02.png" width="65%">
     <font size="2">
         <figcaption class="text-center">Figure 2: Example of the application of temperature scaling (extracted from [1]).</figcaption>
     </font>
