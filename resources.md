@@ -34,6 +34,8 @@ A collection of useful resources, synchronized with [this repository](https://gi
     * [Online Courses](#online-courses-nlp)
     * [Tutorials](#tutorials-nlp)
     * [Frameworks](#frameworks-nlp)
+    * [Other NLP](#other-nlp)
+* [Applied ML](#applied-ml)
 * [Blogs](#blogs)
 * [Discussion Groups](#discussion-groups)
 * [Other](#other)
@@ -94,8 +96,6 @@ A collection of useful resources, synchronized with [this repository](https://gi
 
 * [Intro to Neural Networks and Machine Learning](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/) by Roger Grosse (University of Toronto)
 
-* [Machine Learning](https://work.caltech.edu/telecourse.html) by Yaser Abu-Mostafa (Caltech)
-
 * [Foundations of Machine Learning](https://bloomberg.github.io/foml/#home) by David Rosenberg (Bloomberg ML EDU)
 
 * [Introduction to Machine Learning for Coders](https://course18.fast.ai/ml) by fast.ai
@@ -109,6 +109,7 @@ A collection of useful resources, synchronized with [this repository](https://gi
 ### Frameworks ML
 
 * [scikit-learn](http://scikit-learn.org/stable/)
+* [Optuna](https://optuna.org/)
 
 ***
 
@@ -130,8 +131,6 @@ A collection of useful resources, synchronized with [this repository](https://gi
 
 * [Cutting Edge Deep Learning For Coders](https://course18.fast.ai/part2.html) by fast.ai
 
-* [CS20SI: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html) by Chip Huyen, Stanford University 
-
 #### Other DL
 
 * [*Wildml.com* Deep Learning Glossary](http://www.wildml.com/deep-learning-glossary/)
@@ -140,10 +139,10 @@ A collection of useful resources, synchronized with [this repository](https://gi
 
 ### Frameworks DL
 
+* [PyTorch](http://pytorch.org/) - [Book: Deep Learning with PyTorch](https://pytorch.org/assets/deep-learning/Deep-Learning-with-PyTorch.pdf)
 * [Tensorflow](https://www.tensorflow.org/)
-* [PyTorch](http://pytorch.org/)
+* [JAX](https://github.com/google/jax)
 * [MXNet](https://mxnet.incubator.apache.org/)
-* [Keras](https://keras.io/)
 * [CNTK](https://docs.microsoft.com/en-us/cognitive-toolkit/)
 * [fast.ai](https://github.com/fastai/fastai)
 
@@ -154,11 +153,13 @@ A collection of useful resources, synchronized with [this repository](https://gi
 ### Books RL
 
 * [Reinforcement Learning:
-An Introduction](https://mitpress.mit.edu/books/reinforcement-learning-second-edition) by Richard S. Sutton and Andrew G. Barto, MIT Press (2018)
+An Introduction](https://mitpress.mit.edu/books/reinforcement-learning-second-edition) by Richard S. Sutton and Andrew G. Barto, MIT Press (2018) - [Book](http://incompleteideas.net/book/the-book-2nd.html)
 
 ### Online Courses RL
 
-* [UCL Course on RL](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) by David Silver (Google Deepmind)
+* [Coursera's Reinforcement Learning Specialization](https://www.coursera.org/specializations/reinforcement-learning) by University of Alberta
+
+* [UCL Course on RL](https://www.davidsilver.uk/teaching/) by David Silver (Google Deepmind)
 
 * [Deep RL Bootcamp](https://sites.google.com/view/deep-rl-bootcamp/home?authuser=0) by Berkeley (CA)
 
@@ -182,6 +183,8 @@ An Introduction](https://mitpress.mit.edu/books/reinforcement-learning-second-ed
 
 * [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/), Stanford University
 
+* [EECS 498-007 / 598-005: Deep Learning for Computer Vision](https://web.eecs.umich.edu/%7Ejustincj/teaching/eecs498/), University of Michigan, Fall 2019 - [Link to online video classes](https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r)
+
 #### Frameworks CV
 
 * [OpenCV](https://opencv.org/)
@@ -192,9 +195,9 @@ An Introduction](https://mitpress.mit.edu/books/reinforcement-learning-second-ed
 
 #### Online Courses NLP
 
-* [Natural Language Processing](http://courses.cs.washington.edu/courses/csep517/17sp/) by Noah Smith
-
 * [Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/) by Chris Manning and Richard Socher (Stanford University)
+
+* [Natural Language Processing](http://courses.cs.washington.edu/courses/csep517/17sp/) by Noah Smith
 
 * [Algorithms for NLP](http://www.cs.cmu.edu/~tbergkir/11711fa16/) by Taylor Berg-Kirkpatrick and Robert Frederking
 
@@ -208,13 +211,26 @@ An Introduction](https://mitpress.mit.edu/books/reinforcement-learning-second-ed
 
 #### Frameworks NLP
 
+* [HuggingFace Transformers](https://github.com/huggingface/transformers)
 * [spaCy](https://spacy.io/)
+* [AllenNLP](https://allennlp.org/)
+
+#### Other NLP
+
+* [The Transformer Family](https://lilianweng.github.io/lil-log/2020/04/07/the-transformer-family.html)
+
+***
+
+## Applied ML
+
+* [Full Stack Deep Learning](https://course.fullstackdeeplearning.com/)
 
 ***
 
 ## Blogs
 
 * [Jay Alammar](https://jalammar.github.io/)
+* [Lil'Log](https://lilianweng.github.io/lil-log/)
 * [Colah](http://colah.github.io/)
 * [Distill](http://distill.pub/)
 * [Google AI Blog](https://ai.googleblog.com/)
@@ -228,10 +244,11 @@ An Introduction](https://mitpress.mit.edu/books/reinforcement-learning-second-ed
 
 * [r/MachineLearning](https://old.reddit.com/r/MachineLearning/)
 * [r/datascience](https://old.reddit.com/r/datascience/)
-* [DataTau](http://www.datatau.com/)
 
 ***
 
 ## Other
 
 * [AI Conference Deadlines](https://aideadlin.es/)
+* [r/ML Advanced Courses Aggregator](https://old.reddit.com/r/MachineLearning/comments/fdw0ax/d_advanced_courses_update/)
+* [r/ML Hidden Gems and Underappreciated Resources](https://old.reddit.com/r/MachineLearning/comments/i9kztq/d_hidden_gems_and_underappreciated_resources/)
