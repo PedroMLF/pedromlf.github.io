@@ -1,0 +1,33 @@
+title: "Pedro Ferreira"
+role: "ML Researcher"          # homepage browser tab: "Pedro Ferreira · ML Researcher"
+tagline: "PhD candidate in AI · University of Amsterdam"
+
+# Email written backwards, so the address never appears as-is in the repo or on the page.
+# The "Email" link turns it around when clicked.
+email_reversed: "ln.avu@arierref.m.p"
+
+# Leave baseurl empty for a <username>.github.io repo; use "/repo-name" otherwise.
+baseurl: ""
+url: "https://pedromlf.github.io"
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+timezone: Europe/Amsterdam
+
+# Shown after the Email link, under the intro and in the footer.
+links:
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=SftS0KAAAAAJ&sortby=pubdate"
+  - name: "GitHub"
+    url: "https://github.com/pedromlf"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/pedromlferreira"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  # Blog is hidden for now. Remove these two lines (and uncomment the Blog link
+  # in _layouts/default.html) to turn it on.
+  - blog.md
+  - _posts
